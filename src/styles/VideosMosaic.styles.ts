@@ -34,6 +34,14 @@ const Input = styled.input`
 
 const Message = styled.p`
   color: ${({ theme }) => theme.text};
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: ${({ theme }) => theme.fontMedium};
+  margin-top: 15rem;
+
+  span {
+    color: ${({ theme }) => theme.accent};
+  }
 `
 
 export const Styled = {
