@@ -1,8 +1,8 @@
 {
+  "homepage": "https://nixton9.github.io/GuitarHelper",
   "name": "guitar-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nixton9.github.io/GuitarHelper",
   "dependencies": {
     "@kevinorriss/react-metronome": "^2.0.0",
     "@testing-library/jest-dom": "^5.12.0",
