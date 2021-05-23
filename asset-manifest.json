@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/GuitarHelper/static/js/main.5e180bcc.chunk.js",
+    "main.js.map": "/GuitarHelper/static/js/main.5e180bcc.chunk.js.map",
+    "runtime-main.js": "/GuitarHelper/static/js/runtime-main.942d4fd5.js",
+    "runtime-main.js.map": "/GuitarHelper/static/js/runtime-main.942d4fd5.js.map",
+    "static/css/2.e3730c2b.chunk.css": "/GuitarHelper/static/css/2.e3730c2b.chunk.css",
+    "static/js/2.3de4c3b6.chunk.js": "/GuitarHelper/static/js/2.3de4c3b6.chunk.js",
+    "static/js/2.3de4c3b6.chunk.js.map": "/GuitarHelper/static/js/2.3de4c3b6.chunk.js.map",
+    "static/js/3.38d7058b.chunk.js": "/GuitarHelper/static/js/3.38d7058b.chunk.js",
+    "static/js/3.38d7058b.chunk.js.map": "/GuitarHelper/static/js/3.38d7058b.chunk.js.map",
+    "index.html": "/GuitarHelper/index.html",
+    "static/css/2.e3730c2b.chunk.css.map": "/GuitarHelper/static/css/2.e3730c2b.chunk.css.map",
+    "static/js/2.3de4c3b6.chunk.js.LICENSE.txt": "/GuitarHelper/static/js/2.3de4c3b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.942d4fd5.js",
+    "static/css/2.e3730c2b.chunk.css",
+    "static/js/2.3de4c3b6.chunk.js",
+    "static/js/main.5e180bcc.chunk.js"
+  ]
+}
