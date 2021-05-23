@@ -8,7 +8,6 @@ const FilterBar = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  position: relative;
   margin-top: ${({ theme }) => theme.spacingXS};
 `
 
