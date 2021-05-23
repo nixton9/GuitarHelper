@@ -2,7 +2,10 @@ import { Video, SearchItem } from './types'
 
 export const parseSearchResults = (items: SearchItem[]): Video[] =>
   items.map(item => ({
-    id: item.id.videoId,
+    id:
+      typeof item.id === 'object' && item.id !== null
+        ? item.id.videoId
+        : item.id,
     title: item.snippet.title,
     description: item.snippet.description,
     thumbnail: item.snippet.thumbnails.medium.url,
