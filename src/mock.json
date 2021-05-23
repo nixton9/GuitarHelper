@@ -1,0 +1,415 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "k-ZFTfu6rGhrPa-iYFx9rczL4Y8",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "PT",
+  "pageInfo": {
+    "totalResults": 280301,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6QVrUJcNR7jj94tca__GTde93HQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IL0dxX_z2qc"
+      },
+      "snippet": {
+        "publishedAt": "2018-05-24T15:57:46Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | G.O.A.T. (Official Music Video)",
+        "description": "Production by: Y2K JUDGE Scott LePage Tim Henson Mixed by: Eric Palmquist Mastered by: Chris Athens.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9_gkpYORQLU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9_gkpYORQLU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9_gkpYORQLU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-05-24T15:57:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ocxKQ_Vboq_AaqBXwJTLAB1fpW4",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "videoId": "IL0dxX_z2qc"
+      },
+      "snippet": {
+        "publishedAt": "2011-11-14T01:33:41Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia",
+        "description": "Your destination for the best video content for all things Polyphia. Subscribe now to be the first to know when we post new videos!",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjM0K4UwJbAiPAYieYcdtMEDiAQZ7Nggx1FfRAEKQ=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjM0K4UwJbAiPAYieYcdtMEDiAQZ7Nggx1FfRAEKQ=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjM0K4UwJbAiPAYieYcdtMEDiAQZ7Nggx1FfRAEKQ=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2011-11-14T01:33:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WNPbB7E3PKXWF7WobRaCkH1xL28",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H2j2gGqRXxI"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-16T18:10:56Z",
+        "channelId": "UCv1xTdxHLBz1eO2BlMalbKQ",
+        "title": "Polyphia - New Levels New Devils [Full Album]",
+        "description": "THIS STREAM IS MISSING THE SONG \"Yas ft. Mario Camarena and Erick Hansel\"] Youtube blocked the video because of the song (Something about copyright) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H2j2gGqRXxI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H2j2gGqRXxI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H2j2gGqRXxI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Júlio Juriolli",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-16T18:10:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PRQNU4n-vS2Y6Ei_d80ua2tAQPU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IHcAi2FPrTM"
+      },
+      "snippet": {
+        "publishedAt": "2018-08-07T19:47:15Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | O.D. (Official Music Video)",
+        "description": "Video Credits: Director- Jake Woodbridge Cinematography/Colorist - Bryce Wandling Producer - Kelan McQuinn Art Director - Jake Johnston Editor - Josh Mruz ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IHcAi2FPrTM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IHcAi2FPrTM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IHcAi2FPrTM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-08-07T19:47:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KgaNPoyc_9pndTX7Xh1PoWke84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7aAKMzi4zw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-01T16:58:19Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | Look But Don&#39;t Touch (feat. Lewis Grant)",
+        "description": "Song produced by: Y2K, The Worst, Swip, and Nick Sampson Vinyl and Merch: http://polyphia.merchnow.com Directed by: Patrick Lawler & Cameron Alexander ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-01T16:58:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KgaNPoyc_9pndTX7Xh1PoWke84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7aAKMzi4zw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-01T16:58:19Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | Look But Don&#39;t Touch (feat. Lewis Grant)",
+        "description": "Song produced by: Y2K, The Worst, Swip, and Nick Sampson Vinyl and Merch: http://polyphia.merchnow.com Directed by: Patrick Lawler & Cameron Alexander ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-01T16:58:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KgaNPoyc_9pndTX7Xh1PoWke84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7aAKMzi4zw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-01T16:58:19Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | Look But Don&#39;t Touch (feat. Lewis Grant)",
+        "description": "Song produced by: Y2K, The Worst, Swip, and Nick Sampson Vinyl and Merch: http://polyphia.merchnow.com Directed by: Patrick Lawler & Cameron Alexander ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-01T16:58:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KgaNPoyc_9pndTX7Xh1PoWke84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7aAKMzi4zw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-01T16:58:19Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | Look But Don&#39;t Touch (feat. Lewis Grant)",
+        "description": "Song produced by: Y2K, The Worst, Swip, and Nick Sampson Vinyl and Merch: http://polyphia.merchnow.com Directed by: Patrick Lawler & Cameron Alexander ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-01T16:58:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KgaNPoyc_9pndTX7Xh1PoWke84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7aAKMzi4zw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-01T16:58:19Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | Look But Don&#39;t Touch (feat. Lewis Grant)",
+        "description": "Song produced by: Y2K, The Worst, Swip, and Nick Sampson Vinyl and Merch: http://polyphia.merchnow.com Directed by: Patrick Lawler & Cameron Alexander ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-01T16:58:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KgaNPoyc_9pndTX7Xh1PoWke84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7aAKMzi4zw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-01T16:58:19Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | Look But Don&#39;t Touch (feat. Lewis Grant)",
+        "description": "Song produced by: Y2K, The Worst, Swip, and Nick Sampson Vinyl and Merch: http://polyphia.merchnow.com Directed by: Patrick Lawler & Cameron Alexander ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-01T16:58:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KgaNPoyc_9pndTX7Xh1PoWke84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7aAKMzi4zw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-01T16:58:19Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | Look But Don&#39;t Touch (feat. Lewis Grant)",
+        "description": "Song produced by: Y2K, The Worst, Swip, and Nick Sampson Vinyl and Merch: http://polyphia.merchnow.com Directed by: Patrick Lawler & Cameron Alexander ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-01T16:58:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KgaNPoyc_9pndTX7Xh1PoWke84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7aAKMzi4zw"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-01T16:58:19Z",
+        "channelId": "UCDe08Fs0s0YKJuk5h45csAQ",
+        "title": "Polyphia | Look But Don&#39;t Touch (feat. Lewis Grant)",
+        "description": "Song produced by: Y2K, The Worst, Swip, and Nick Sampson Vinyl and Merch: http://polyphia.merchnow.com Directed by: Patrick Lawler & Cameron Alexander ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7aAKMzi4zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Polyphia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-01T16:58:19Z"
+      }
+    }
+  ]
+}
