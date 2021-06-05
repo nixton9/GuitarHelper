@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/GuitarHelper/static/js/main.2e9daf42.chunk.js",
-    "main.js.map": "/GuitarHelper/static/js/main.2e9daf42.chunk.js.map",
+    "main.js": "/GuitarHelper/static/js/main.2d8858ed.chunk.js",
+    "main.js.map": "/GuitarHelper/static/js/main.2d8858ed.chunk.js.map",
     "runtime-main.js": "/GuitarHelper/static/js/runtime-main.942d4fd5.js",
     "runtime-main.js.map": "/GuitarHelper/static/js/runtime-main.942d4fd5.js.map",
     "static/css/2.e3730c2b.chunk.css": "/GuitarHelper/static/css/2.e3730c2b.chunk.css",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.942d4fd5.js",
     "static/css/2.e3730c2b.chunk.css",
     "static/js/2.3de4c3b6.chunk.js",
-    "static/js/main.2e9daf42.chunk.js"
+    "static/js/main.2d8858ed.chunk.js"
   ]
 }
