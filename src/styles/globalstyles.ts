@@ -45,4 +45,14 @@ export const GlobalStyle = createGlobalStyle`
         color: ${({ theme }) => theme.text};
         font-weight: ${({ theme }) => theme.fontLight};
     }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
 `

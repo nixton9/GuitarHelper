@@ -291,13 +291,21 @@ export const OptionLabel = styled.label`
 export const OptionInput = styled.div`
   color: ${({ theme }) => theme.textSecondary};
   font-size: 1.2rem;
-  margin-left: 0.5rem;
+  margin-left: 0.8rem;
   cursor: pointer;
 
   select {
     font-size: 1.2rem;
     background: transparent;
     color: ${({ theme }) => theme.textSecondary};
+  }
+
+  input {
+    background: transparent;
+    color: ${({ theme }) => theme.textSecondary};
+    font-size: 1.2rem;
+    max-width: 5rem;
+    overflow: hidden;
   }
 `
 

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect, useContext } from 'react'
 import { Video } from './Video'
 import { SingleModalProps, VideoPlayerStates } from '../../../utils/types'
 import { MainContext } from '../../../utils/MainContext'
+import { convertToSeconds } from '../../../utils/helpers'
 import { Options } from 'react-youtube'
 
 const VideoContainer: React.FC<SingleModalProps> = ({
@@ -14,6 +15,7 @@ const VideoContainer: React.FC<SingleModalProps> = ({
   const [speed, setSpeed] = useState<number>(1)
   const [volume, setVolume] = useState<number>(50)
   const [countdown, setCountdown] = useState<number | null>(null)
+  const [startTime, setStartTime] = useState<string>('')
 
   const { selectedVideo } = useContext(MainContext)
   const isMusic = Boolean(selectedVideo?.path)
@@ -34,6 +36,9 @@ const VideoContainer: React.FC<SingleModalProps> = ({
       if (timer && audioEl?.current?.currentTime === 0) {
         playWithTimer()
       } else {
+        if (startTime && audioEl && audioEl.current) {
+          audioEl.current.currentTime = Number(convertToSeconds(startTime))
+        }
         audioEl?.current?.play()
       }
     } else {
@@ -44,6 +49,9 @@ const VideoContainer: React.FC<SingleModalProps> = ({
       ) {
         playWithTimer()
       } else {
+        if (startTime) {
+          videoEvent?.current?.seekTo(convertToSeconds(startTime))
+        }
         videoEvent?.current?.playVideo()
       }
     }
@@ -100,6 +108,9 @@ const VideoContainer: React.FC<SingleModalProps> = ({
 
   const changeTimer = () => setTimer(!timer)
 
+  const changeStartTime = (e: React.ChangeEvent<HTMLInputElement>) =>
+    setStartTime(e.target.value)
+
   const changeSpeed = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSpeed(Number(e.target.value))
     if (isMusic) {
@@ -135,6 +146,7 @@ const VideoContainer: React.FC<SingleModalProps> = ({
       countdown={countdown}
       loop={loop}
       timer={timer}
+      startTime={startTime}
       playerOptions={playerOptions}
       onPlayerReady={onPlayerReady}
       onPlayerChange={onPlayerChange}
@@ -145,6 +157,7 @@ const VideoContainer: React.FC<SingleModalProps> = ({
       changeTimer={changeTimer}
       changeSpeed={changeSpeed}
       changeVolume={changeVolume}
+      changeStartTime={changeStartTime}
       audioEl={audioEl}
       isMusic={isMusic}
     />

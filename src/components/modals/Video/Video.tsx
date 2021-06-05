@@ -21,6 +21,7 @@ interface VideoProps {
   countdown: number | null
   loop: boolean
   timer: boolean
+  startTime: string
   playerOptions: Options
   onPlayerReady: (e: any) => void
   onPlayerChange: (e: any) => void
@@ -31,6 +32,7 @@ interface VideoProps {
   changeTimer: () => void
   changeSpeed: (e: React.ChangeEvent<HTMLInputElement>) => void
   changeVolume: (e: React.ChangeEvent<HTMLInputElement>) => void
+  changeStartTime: (e: React.ChangeEvent<HTMLInputElement>) => void
   audioEl: React.Ref<HTMLAudioElement>
   isMusic: boolean
 }
@@ -41,6 +43,7 @@ export const Video: React.FC<VideoProps> = ({
   countdown,
   loop,
   timer,
+  startTime,
   playerOptions,
   onPlayerReady,
   onPlayerChange,
@@ -51,6 +54,7 @@ export const Video: React.FC<VideoProps> = ({
   changeTimer,
   changeSpeed,
   changeVolume,
+  changeStartTime,
   audioEl,
   isMusic
 }) => {
@@ -128,6 +132,21 @@ export const Video: React.FC<VideoProps> = ({
                 </Styled.OptionLabel>
                 <Styled.OptionInput>
                   <span onClick={changeTimer}>{timer ? 'On' : 'Off'}</span>
+                </Styled.OptionInput>
+              </Styled.SingleOption>
+
+              <Styled.SingleOption>
+                <Styled.OptionLabel>
+                  <FaClock />
+                </Styled.OptionLabel>
+                <Styled.OptionInput>
+                  <input
+                    type="number"
+                    step="0.01"
+                    value={startTime}
+                    onChange={changeStartTime}
+                    placeholder="0"
+                  />
                 </Styled.OptionInput>
               </Styled.SingleOption>
 

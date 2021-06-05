@@ -52,3 +52,11 @@ export const filterVideoByCategory = (videos: Video[], category: string) =>
 
 export const capitalize = (name: string) =>
   name ? name.replace(/(^|\s)\S/g, l => l.toUpperCase()) : ''
+
+export const convertToSeconds = (val: string) => {
+  const parts = val.split('.'),
+    minutes = +parts[0],
+    seconds = parts[1] ? +parts[1] : 0
+
+  return (minutes * 60 + seconds).toFixed(3)
+}
