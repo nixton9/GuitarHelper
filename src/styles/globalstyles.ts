@@ -55,4 +55,21 @@ export const GlobalStyle = createGlobalStyle`
     input[type=number] {
         -moz-appearance: textfield;
     }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: ${({ theme }) => theme.lightBackground};
+        border-radius: 25px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: ${({ theme }) => theme.surfaces};
+    }
 `
