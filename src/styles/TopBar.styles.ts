@@ -11,10 +11,14 @@ const Container = styled.div`
   padding: ${({ theme }) => theme.spacingXS} ${({ theme }) => theme.spacingS};
 `
 
-const Logo = styled.div`
-  font-size: 2.7rem;
-  font-weight: ${({ theme }) => theme.fontBlack};
+const Input = styled.input`
+  width: 20rem;
+  height: 4rem;
+  padding: ${({ theme }) => theme.spacingXXS} ${({ theme }) => theme.spacingXS};
+  font-size: 1.3rem;
+  background: ${({ theme }) => theme.lightBackground};
   color: ${({ theme }) => theme.text};
+  border-radius: ${({ theme }) => theme.smallBorderRadius};
 `
 
 const Items = styled.div`
@@ -77,7 +81,7 @@ const DropDownItem = styled.li`
 
 export const Styled = {
   Container,
-  Logo,
+  Input,
   Items,
   Item,
   DropDown,

@@ -4,16 +4,9 @@ import { MainContext } from '../utils/MainContext'
 import { Category } from '../utils/types'
 import { capitalize } from '../utils/helpers'
 
-interface CategoriesNavProps {
-  activeCategory: string
-  setActiveCategory: (active: string) => void
-}
-
-export const CategoriesNav: React.FC<CategoriesNavProps> = ({
-  activeCategory,
-  setActiveCategory
-}) => {
-  const { categories } = useContext(MainContext)
+export const CategoriesNav: React.FC = () => {
+  const { categories, activeCategory, setActiveCategory } =
+    useContext(MainContext)
 
   const visibleCategories: Category[] = [
     { id: 'all', label: 'All' },
@@ -21,7 +14,7 @@ export const CategoriesNav: React.FC<CategoriesNavProps> = ({
   ]
 
   return (
-    <Styled.Container>
+    <div>
       <Styled.Nav>
         {visibleCategories.map(cat => (
           <Styled.Item
@@ -33,6 +26,6 @@ export const CategoriesNav: React.FC<CategoriesNavProps> = ({
           </Styled.Item>
         ))}
       </Styled.Nav>
-    </Styled.Container>
+    </div>
   )
 }

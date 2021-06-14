@@ -1,16 +1,22 @@
 import { useContext } from 'react'
+import { CategoriesNav } from './CategoriesNav'
 import { Styled } from '../styles/TopBar.styles'
 import { MainContext } from '../utils/MainContext'
 import { ModalTypes } from '../utils/types'
 import { FaPlus, FaFilter, FaDrum } from 'react-icons/fa'
 
 export const TopBar: React.FC = () => {
-  const { setModal } = useContext(MainContext)
+  const { setModal, query, setQuery } = useContext(MainContext)
 
   return (
     <Styled.Container>
-      <Styled.Logo>GuitarHelper</Styled.Logo>
-
+      <Styled.Input
+        type="text"
+        value={query}
+        onChange={e => setQuery(e.target.value)}
+        placeholder="Search videos"
+      />
+      <CategoriesNav />
       <Styled.Items>
         <Styled.Item>
           <FaPlus />

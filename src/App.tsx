@@ -14,8 +14,8 @@ const App: React.FC = () => {
       <MainProvider>
         <Styled.Container>
           <TopBar />
-          <Modal />
           <VideosMosaic />
+          <Modal />
         </Styled.Container>
       </MainProvider>
     </ThemeProvider>

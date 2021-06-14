@@ -17,6 +17,8 @@ export const MainProvider = ({ children }: { children: React.ReactNode }) => {
   const [categories, setCategories] = useState<Category[]>([])
   const [modal, setModal] = useState<ModalTypes | null>(null)
   const [selectedVideo, setSelectedVideo] = useState<Video | null>(null)
+  const [activeCategory, setActiveCategory] = useState<string>('all')
+  const [query, setQuery] = useState<string>('')
 
   const getAllVideos = () => {
     getVideos()
@@ -81,7 +83,11 @@ export const MainProvider = ({ children }: { children: React.ReactNode }) => {
         modal,
         setModal,
         selectedVideo,
-        setSelectedVideo
+        setSelectedVideo,
+        activeCategory,
+        setActiveCategory,
+        query,
+        setQuery
       }}
     >
       {children}

@@ -103,17 +103,13 @@ export const Video: React.FC<VideoProps> = ({
 
         <Styled.VideoMeta>
           <Styled.MetaTitle>
-            {selectedVideo.title}
+            {selectedVideo.title.substr(0, 70)}
             {selectedVideo.duration && (
               <Styled.MetaDuration>
                 {selectedVideo.duration}
               </Styled.MetaDuration>
             )}
           </Styled.MetaTitle>
-
-          <Styled.MetaDescription>
-            {selectedVideo.description.substr(0, 350)}
-          </Styled.MetaDescription>
 
           <Styled.Controls>
             <Styled.Options>

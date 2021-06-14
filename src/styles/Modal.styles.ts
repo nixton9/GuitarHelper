@@ -168,6 +168,7 @@ export const VideoDelete = styled.span`
 
 export const VideoContainer = styled.div`
   display: flex;
+  align-items: center;
 `
 
 export const PlayerWrapper = styled.div`
@@ -190,9 +191,10 @@ export const PlayerCountdown = styled.div`
 `
 
 export const MusicImg = styled.img`
-  width: 640px;
-  height: 390px;
+  width: ${`${window.innerWidth * 0.4}px`};
+  height: ${`${window.innerHeight * 0.28}px`};
   border: 1px solid ${({ theme }) => theme.lightBackground};
+  object-fit: contain;
 `
 
 export const VideoMeta = styled.div`
@@ -257,8 +259,8 @@ export const Buttons = styled.div`
   flex-wrap: nowrap;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right: 2rem;
+  transform: translateY(-50%);
 `
 
 export const SingleButton = styled.span`

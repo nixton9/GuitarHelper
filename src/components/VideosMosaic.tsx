@@ -1,16 +1,12 @@
-import { useState, useContext } from 'react'
+import { useContext } from 'react'
 import { SingleVideo } from './SingleVideo'
-import { CategoriesNav } from './CategoriesNav'
 import { MainContext } from '../utils/MainContext'
 import { ModalTypes } from '../utils/types'
 import { filterVideoByQuery, filterVideoByCategory } from '../utils/helpers'
 import { Styled } from '../styles/VideosMosaic.styles'
 
 export const VideosMosaic = () => {
-  const { videos, setModal } = useContext(MainContext)
-
-  const [query, setQuery] = useState<string>('')
-  const [activeCategory, setActiveCategory] = useState<string>('all')
+  const { videos, setModal, activeCategory, query } = useContext(MainContext)
 
   const filteredVideos = filterVideoByCategory(
     filterVideoByQuery(videos, query),
@@ -26,18 +22,6 @@ export const VideosMosaic = () => {
         </Styled.Message>
       ) : (
         <>
-          <Styled.FilterBar>
-            <Styled.Input
-              type="text"
-              value={query}
-              onChange={e => setQuery(e.target.value)}
-              placeholder="Search videos"
-            />
-            <CategoriesNav
-              activeCategory={activeCategory}
-              setActiveCategory={setActiveCategory}
-            />
-          </Styled.FilterBar>
           {!filteredVideos.length ? (
             <Styled.Message>
               There are no videos based on your search criteria.

@@ -24,8 +24,8 @@ const VideoContainer: React.FC<SingleModalProps> = ({
   const audioEl = useRef<HTMLAudioElement>(null)
 
   const playerOptions: Options = {
-    height: '390',
-    width: '640'
+    height: (window.innerHeight * 0.28).toString(),
+    width: (window.innerWidth * 0.4).toString()
   }
 
   const onPlayerReady = (event: Event) => (videoEvent.current = event.target)

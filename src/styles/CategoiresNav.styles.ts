@@ -1,12 +1,5 @@
 import styled from 'styled-components/macro'
 
-const Container = styled.div`
-  padding: ${({ theme }) => theme.spacingXS};
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-`
-
 const Nav = styled.ul`
   display: flex;
   align-items: center;
@@ -28,7 +21,6 @@ const Item = styled.li`
 `
 
 export const Styled = {
-  Container,
   Nav,
   Item
 }

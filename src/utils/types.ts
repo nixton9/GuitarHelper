@@ -56,6 +56,10 @@ export interface AppContextProps {
   setModal: Dispatch<SetStateAction<ModalTypes | null>>
   selectedVideo: Video | null
   setSelectedVideo: Dispatch<SetStateAction<Video | null>>
+  activeCategory: string
+  setActiveCategory: Dispatch<SetStateAction<string>>
+  query: string
+  setQuery: Dispatch<SetStateAction<string>>
 }
 
 export interface SingleModalProps {
