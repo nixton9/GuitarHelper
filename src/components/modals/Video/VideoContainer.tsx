@@ -16,6 +16,7 @@ const VideoContainer: React.FC<SingleModalProps> = ({
   const [volume, setVolume] = useState<number>(50)
   const [countdown, setCountdown] = useState<number | null>(null)
   const [startTime, setStartTime] = useState<string>('')
+  const [endTime, setEndTime] = useState<string>('')
 
   const { selectedVideo } = useContext(MainContext)
   const isMusic = Boolean(selectedVideo?.path)
@@ -111,6 +112,9 @@ const VideoContainer: React.FC<SingleModalProps> = ({
   const changeStartTime = (e: React.ChangeEvent<HTMLInputElement>) =>
     setStartTime(e.target.value)
 
+  const changeEndTime = (e: React.ChangeEvent<HTMLInputElement>) =>
+    setEndTime(e.target.value)
+
   const changeSpeed = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSpeed(Number(e.target.value))
     if (isMusic) {
@@ -139,6 +143,24 @@ const VideoContainer: React.FC<SingleModalProps> = ({
     }
   }, [playerState, loop])
 
+  useEffect(() => {
+    let interval: ReturnType<typeof setInterval>
+    if (endTime && playerState === VideoPlayerStates.PLAYING) {
+      interval = setInterval(() => {
+        const isEndTime =
+          convertToSeconds(endTime) ===
+          videoEvent?.current?.getCurrentTime().toFixed(0)
+
+        if (isEndTime && videoEvent.current) {
+          videoEvent.current.seekTo(convertToSeconds(startTime))
+        } else if (isEndTime && audioEl.current) {
+          audioEl.current.currentTime = Number(convertToSeconds(startTime))
+        }
+      }, 1000)
+    }
+    return () => clearInterval(interval)
+  }, [endTime, startTime, playerState])
+
   return (
     <Video
       speed={speed}
@@ -147,6 +169,7 @@ const VideoContainer: React.FC<SingleModalProps> = ({
       loop={loop}
       timer={timer}
       startTime={startTime}
+      endTime={endTime}
       playerOptions={playerOptions}
       onPlayerReady={onPlayerReady}
       onPlayerChange={onPlayerChange}
@@ -158,6 +181,7 @@ const VideoContainer: React.FC<SingleModalProps> = ({
       changeSpeed={changeSpeed}
       changeVolume={changeVolume}
       changeStartTime={changeStartTime}
+      changeEndTime={changeEndTime}
       audioEl={audioEl}
       isMusic={isMusic}
     />

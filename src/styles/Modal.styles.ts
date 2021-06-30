@@ -290,6 +290,20 @@ export const OptionLabel = styled.label`
   font-size: 2rem;
 `
 
+export const OptionMultiInput = styled.div`
+  display: flex;
+  align-items: center;
+
+  input {
+    width: 3rem;
+  }
+
+  span {
+    margin-right: 1.5rem;
+    font-size: 2rem;
+  }
+`
+
 export const OptionInput = styled.div`
   color: ${({ theme }) => theme.textSecondary};
   font-size: 1.2rem;
@@ -397,6 +411,7 @@ export const Styled = {
   SingleOption,
   Options,
   OptionLabel,
+  OptionMultiInput,
   OptionInput,
   CategorySelect,
   Message,

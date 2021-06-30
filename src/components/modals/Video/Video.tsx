@@ -22,6 +22,7 @@ interface VideoProps {
   loop: boolean
   timer: boolean
   startTime: string
+  endTime: string
   playerOptions: Options
   onPlayerReady: (e: any) => void
   onPlayerChange: (e: any) => void
@@ -33,6 +34,7 @@ interface VideoProps {
   changeSpeed: (e: React.ChangeEvent<HTMLInputElement>) => void
   changeVolume: (e: React.ChangeEvent<HTMLInputElement>) => void
   changeStartTime: (e: React.ChangeEvent<HTMLInputElement>) => void
+  changeEndTime: (e: React.ChangeEvent<HTMLInputElement>) => void
   audioEl: React.Ref<HTMLAudioElement>
   isMusic: boolean
 }
@@ -44,6 +46,7 @@ export const Video: React.FC<VideoProps> = ({
   loop,
   timer,
   startTime,
+  endTime,
   playerOptions,
   onPlayerReady,
   onPlayerChange,
@@ -55,6 +58,7 @@ export const Video: React.FC<VideoProps> = ({
   changeSpeed,
   changeVolume,
   changeStartTime,
+  changeEndTime,
   audioEl,
   isMusic
 }) => {
@@ -135,15 +139,28 @@ export const Video: React.FC<VideoProps> = ({
                 <Styled.OptionLabel>
                   <FaClock />
                 </Styled.OptionLabel>
-                <Styled.OptionInput>
-                  <input
-                    type="number"
-                    step="0.01"
-                    value={startTime}
-                    onChange={changeStartTime}
-                    placeholder="0"
-                  />
-                </Styled.OptionInput>
+                <Styled.OptionMultiInput>
+                  <Styled.OptionInput>
+                    <input
+                      type="number"
+                      step="0.01"
+                      value={startTime}
+                      onChange={changeStartTime}
+                      placeholder="0"
+                    />
+                  </Styled.OptionInput>
+                  <span>-</span>
+                  <Styled.OptionInput>
+                    <input
+                      type="number"
+                      step="0.01"
+                      min={startTime}
+                      value={endTime}
+                      onChange={changeEndTime}
+                      placeholder="0"
+                    />
+                  </Styled.OptionInput>
+                </Styled.OptionMultiInput>
               </Styled.SingleOption>
 
               {Boolean(categories.length) && (

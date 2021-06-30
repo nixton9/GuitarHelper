@@ -58,5 +58,5 @@ export const convertToSeconds = (val: string) => {
     minutes = +parts[0],
     seconds = parts[1] ? +parts[1] : 0
 
-  return (minutes * 60 + seconds).toFixed(3)
+  return (minutes * 60 + seconds).toString()
 }
